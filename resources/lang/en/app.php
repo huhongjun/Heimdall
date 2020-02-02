@@ -57,6 +57,7 @@ return [
     'dash.link1' => 'Add an application here',
     'dash.link2' => 'Pin an item to the dash',
     'dash.pinned_items' => 'Pinned Items',
+    'dash.switch_user' => 'Switch user',
 
     'apps.app_list' => 'Application list',
     'apps.view_trash' => 'View trash',

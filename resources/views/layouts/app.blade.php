@@ -85,7 +85,7 @@
                         <img class="user-img" src="{{ asset('/img/heimdall-icon-small.png') }}" />
                         @endif
                         {{ $current_user->username }}
-                        <a class="btn" href="{{ route('user.select') }}">Switch User</a>
+                        <a class="btn" href="{{ route('user.select') }}">{{ __('app.dash.switch_user') }}</a>
                     </div>
                     @endif
                     @yield('content')
